@@ -40,7 +40,7 @@ Produce the note in exactly this structure:
 ---
 title: "EXTRACT FROM INPUT OR USE UNKNOWN"
 url: "EXTRACT FROM INPUT OR USE UNKNOWN"
-tags: [youtube]
+tags: [note_youtube]
 ---
 
 ## Summary
