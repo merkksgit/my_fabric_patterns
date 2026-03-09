@@ -124,4 +124,4 @@ Ensure you follow ALL of these instructions.
 
 - [Fabric GitHub](https://github.com/danielmiessler/fabric)
 - [Fabric Pattern Reference](https://github.com/danielmiessler/fabric/tree/main/data/patterns)
-- [Fabric Documentation](https://deepwiki.com/danielmiessler/fabric) my_fabric_patterns
+- [Fabric Documentation](https://deepwiki.com/danielmiessler/fabric)
