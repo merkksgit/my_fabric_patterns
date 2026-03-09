@@ -13,25 +13,19 @@ My personal collection of custom [Fabric](https://github.com/danielmiessler/fabr
 Clone the repo and symlink or copy the patterns into your Fabric config directory:
 
 ```bash
-git clone https://github.com/yourusername/fabric-patterns.git
+git clone https://github.com/yourusername/my_fabric_patterns.git
 ```
 
 **Option A — Copy patterns (simple):**
 
 ```bash
-cp -r fabric-patterns/note_youtube ~/.config/fabric/patterns/
+cp -r my_fabric_patterns/note_youtube ~/.config/fabric/patterns/
 ```
 
 **Option B — Symlink patterns (stays in sync with repo):**
 
 ```bash
-ln -s ~/fabric-patterns/note_youtube ~/.config/fabric/patterns/note_youtube
-```
-
-Verify Fabric can see the pattern:
-
-```bash
-fabric --list | grep note_youtube
+ln -s ~/my_fabric_patterns/note_youtube ~/.config/fabric/patterns/note_youtube
 ```
 
 ## Usage
@@ -131,4 +125,3 @@ Ensure you follow ALL of these instructions.
 - [Fabric GitHub](https://github.com/danielmiessler/fabric)
 - [Fabric Pattern Reference](https://github.com/danielmiessler/fabric/tree/main/data/patterns)
 - [Fabric Documentation](https://deepwiki.com/danielmiessler/fabric) my_fabric_patterns
-
