@@ -7,6 +7,7 @@ My personal collection of custom [Fabric](https://github.com/danielmiessler/fabr
 | Pattern        | Description                                                                                                               |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | `note_youtube` | Transforms a YouTube video transcript into a structured Obsidian note with summary, key takeaways, quotes, and references |
+| `note_quote`   | Turns quotes into a structured Obsidian note with meaning, context, key insights, counterpoints, and related ideas        |
 
 ## Installation
 
@@ -41,6 +42,16 @@ Or if you have the Obsidian alias setup in your `.bashrc` (see below), pipe into
 ```bash
 fabric -y "https://youtube.com/watch?v=..." | note_youtube "your-note-title"
 ```
+
+`note_quote` takes quotes as input instead of a YouTube URL. Copy a quote to your clipboard, then pipe it in and pass a title to save it to your vault:
+
+```bash
+pbpaste | note_quote "your-note-title"
+```
+
+`pbpaste` is built into macOS. On Linux or WSL, you can alias it in your shell config, for example with `alias pbpaste='xsel --output --clipboard'`.
+
+Run `source ~/.bashrc` or open a new terminal after installing a new pattern, so its shell function is available.
 
 ## Obsidian Vault Integration
 
