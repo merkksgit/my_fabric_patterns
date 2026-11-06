@@ -13,7 +13,7 @@ My personal collection of custom [Fabric](https://github.com/danielmiessler/fabr
 Clone the repo and symlink or copy the patterns into your Fabric config directory:
 
 ```bash
-git clone https://github.com/yourusername/my_fabric_patterns.git
+git clone https://github.com/merkksgit/my_fabric_patterns.git
 ```
 
 **Option A — Copy patterns (simple):**
@@ -25,7 +25,7 @@ cp -r my_fabric_patterns/note_youtube ~/.config/fabric/patterns/
 **Option B — Symlink patterns (stays in sync with repo):**
 
 ```bash
-ln -s ~/my_fabric_patterns/note_youtube ~/.config/fabric/patterns/note_youtube
+ln -s "$PWD/my_fabric_patterns/note_youtube" ~/.config/fabric/patterns/note_youtube
 ```
 
 ## Usage

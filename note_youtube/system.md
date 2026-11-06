@@ -25,7 +25,7 @@ Take a step back and think carefully about the full transcript before writing an
 1. Read the entire transcript carefully before writing anything.
 2. Identify the video's core thesis or purpose — what problem is being solved, what concept is being explained, or what argument is being made.
 3. Extract the key ideas, concepts, and insights — not just surface-level points, but the reasoning and context behind them.
-4. Identify any notable quotes that are insightful, memorable, or worth preserving verbatim.
+4. Identify any notable quotes that the speaker explicitly attributes to a specific person, book, or text, and that are worth preserving verbatim.
 5. Note any tools, libraries, resources, techniques, or references mentioned that a reader might want to follow up on.
 6. Write a concise but meaty summary that captures the essence of the video in 2-3 sentences.
 7. Format everything cleanly in Markdown suitable for Obsidian.
@@ -38,8 +38,8 @@ Produce the note in exactly this structure:
 
 ```
 ---
-title: "EXTRACT FROM INPUT OR USE UNKNOWN"
-url: "EXTRACT FROM INPUT OR USE UNKNOWN"
+title: "EXTRACT FROM INPUT OR USE Unknown"
+url: "EXTRACT FROM INPUT OR USE Unknown"
 tags: [note_youtube]
 ---
 
@@ -59,7 +59,7 @@ tags: [note_youtube]
 
 > "Another notable quote."
 
-(Only include quotes that are genuinely insightful or memorable. Skip this section entirely if there are none worth preserving.)
+(Only include explicitly attributed quotes that are worth preserving. Skip this section entirely if there are none.)
 
 ## References & Resources
 
