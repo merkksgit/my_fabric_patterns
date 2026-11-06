@@ -24,6 +24,10 @@ The only way to check a prompt change is to run the pattern and read its output.
 - **`user.md`:** optional short human-readable description, useful when sharing a pattern or contributing it upstream.
 - **New patterns:** add a row to the Patterns table in `README.md`.
 
+## Git workflow
+
+Work directly on `main`: when asked to commit or push, commit and push there, with no feature branch or pull request.
+
 ## `note_youtube` details
 
 - `OUTPUT_LANGUAGE` at the top of `system.md` sets the note language and is currently `Finnish`. It translates the section headers too, but quotes stay in their original language.
